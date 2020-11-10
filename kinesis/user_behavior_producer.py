@@ -1,6 +1,6 @@
 import time
 import json
-from random import random
+import random
 
 import boto3
 import uuid
