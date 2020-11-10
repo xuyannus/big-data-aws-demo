@@ -1,0 +1,6 @@
+psycopg2-binary
+numpy
+pandas
+requests>=2.20.1
+boto3
+Faker

@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*/*.pyc
+*/*/*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+
+# Installer logs
+creds_redshift_prod.json
+creds_alpaca_prod.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Cython debug symbols
+cython_debug/
+
+models/setting.py
+/stg_md_overnight/
+
+# temp folders
+lightgbm_plots_*/
+local_*/
+log*/
+venv*/
+
+# CI/CD files
+aws_deploy.sh
