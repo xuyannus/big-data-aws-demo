@@ -72,7 +72,7 @@ class KinesisLoader:
                 'datetime': datetime.utcnow().isoformat()}
         raw_data = json.dumps(item)
         return {
-            'Data': bytes(raw_data),
+            'Data': bytes(raw_data, encoding='utf8'),
             'PartitionKey': item['uuid'],
         }
 
